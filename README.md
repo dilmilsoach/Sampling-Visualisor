@@ -1,6 +1,6 @@
 # 📊 Population vs Sample Stats Simulator
 
-A simple web application built with Python (Flask) that generates a random population and takes a sample to compare their statistical properties (Mean and Variance). It also visualizes the distribution using Matplotlib.
+A simple web application built with Python (Flask) that generates a random population(with mean near 50, variance of 10) and takes a random sample based on user input to compare their statistical properties (Mean and Variance). It also visualizes the distribution using Matplotlib.
 
 ## 🚀 Live DemoYou can view the live app here: https://sampling-visualisor.onrender.com
 
@@ -18,8 +18,9 @@ Deployment: Render (using Gunicorn)
 
 ## 📦 Local Installation & Setup
 Clone the repository:
-'''git clone https://github.com
-cd YOUR_REPO_NAME'''
+```
+git clone https://github.com/dilmilsoach/Sampling-Visualisor
+```
 
 Create and activate a virtual environment:
 ```
@@ -29,8 +30,12 @@ venv\Scripts\activate
 
 Install dependencies:
 ```pip install -r requirements.txt
+```
+
 Run the application:
-python app.py```
+```
+python app.py
+```
 
 The app will be available at http://127.0.0.1:5000.
 
