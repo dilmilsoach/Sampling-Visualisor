@@ -20,7 +20,7 @@ def index():
             s_size = min(s_size, p_size)
 
             # 1. Simulate Election: 51% vote for Candidate A (The "True" Result)
-            true_p = 0.51 
+            true_p = 0.55
             population = np.random.choice([0, 1], size=p_size, p=[1-true_p, true_p])
             sample = np.random.choice(population, size=s_size, replace=False)
 
