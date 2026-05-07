@@ -5,16 +5,16 @@ A simple web application built with Python (Flask) that generates a random popul
 ## 🚀 Live DemoYou can view the live app here: https://sampling-visualisor.onrender.com
 
 ## ✨ Features
-Dynamic Data Generation: Generates a random normal distribution based on user-defined population size.
-Random Sampling: Extracts a subset of data from the population for comparison.
-Statistical Analysis: Automatically calculates the Mean and Variance for both the population and the sample.
-Data Visualization: Displays a normalized histogram comparing the density of both datasets.
-Responsive Design: Clean, simple UI for both desktop and mobile.
+Dynamic Data Generation: Generates a random normal distribution based on user-defined population size.\
+Random Sampling: Extracts a subset of data from the population for comparison.\
+Statistical Analysis: Automatically calculates the Mean and Variance for both the population and the sample.\
+Data Visualization: Displays a normalized histogram comparing the density of both datasets.\
+Responsive Design: Clean, simple UI for both desktop and mobile.\
 
 ## 🛠️ Tech Stack
-Backend: Python with FlaskData Science Libraries: NumPy for calculations, Matplotlib for plotting.
-Frontend: HTML5 & CSS3 (Jinja2 templates)
-Deployment: Render (using Gunicorn)
+Backend: Python with FlaskData Science Libraries: NumPy for calculations, Matplotlib for plotting.\
+Frontend: HTML5 & CSS3\
+Deployment: Render (using Gunicorn)\
 
 ## 📦 Local Installation & Setup
 Clone the repository:
@@ -40,9 +40,9 @@ python app.py
 The app will be available at http://127.0.0.1:5000.
 
 ## 📝 Usage
-Enter a Population Size (e.g., 5000).
-Enter a Sample Size (e.g., 500).
-Click Calculate & Plot.
-The app will display the calculated Mean and Variance alongside a distribution chart.
+Enter a Population Size (e.g., 5000).\
+Enter a Sample Size (e.g., 500).\
+Click Calculate & Plot.\
+The app will display the calculated Mean and Variance alongside a distribution chart.\
 
-##Created by @dilmilsoach
+## Created by @dilmilsoach
