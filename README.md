@@ -47,4 +47,4 @@ Enter a Sample Size (e.g., 500).\
 Click Calculate & Plot.\
 The app will display the calculated Mean and Variance alongside a distribution chart.
 
-## Created by [username](https://github.com/dilmilsoach)
+## Created by [dilmilsoach](https://github.com/dilmilsoach)
