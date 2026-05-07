@@ -1,4 +1,4 @@
-from flask import Flask, request, render_template_string
+from flask import Flask, request, render_template
 import numpy as np
 import matplotlib
 matplotlib.use('Agg')
@@ -49,7 +49,7 @@ def index():
 		except Exception as e:
 			print(f"Error: {e}")
 
-	return render_template_string(index.html, stats=stats, plot_url=plot_url)
+	return render_template(index.html, stats=stats, plot_url=plot_url)
 
 if __name__ == '__main__':
 	port = int(os.environ.get("PORT", 5000))
