@@ -19,7 +19,7 @@ def index():
 			s_size = int(request.form.get('sample_size'))
 			s_size = min(s_size, p_size)
 
-			population = np.random.normal(loc=50, scale=10, size=p_size)
+			population = np.random.exponential(scale=50, size=p_size)
 			sample = np.random.choice(population, size=s_size, replace=False)
 
 			stats = {
